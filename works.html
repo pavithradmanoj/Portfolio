@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works | iva_vistaz</title>
+     <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Great+Vibes&family=Dancing+Script:wght@400;600&family=Inter:wght@400;600&family=Poppins:wght@400;600&family=Lora:wght@400;600&family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<!--js------>
+<script>
+const categories = document.querySelectorAll(".work-category");
+
+categories.forEach(category => {
+    const header = category.querySelector(".category-header");
+
+    header.addEventListener("click", () => {
+        category.classList.toggle("active");
+    });
+});
+</script>
+<!---js---->
+
+
+<body>
+   <header class="main-header">
+     <div class="logo-container">
+        <img src="images\logo.png"  alt="logo" class="site-logo" >
+        <a href="iva1.html#top"> </a>
+    </div>
+    <nav class="navigation">
+        <a href="about.html">about</a>
+        <a href="works.html#top">works</a>
+        <a href="contact.html">contact</a>
+    </nav>
+   </header>
+<!--gpt1---------------->
+
+<!-- WORK SECTION -->
+<main>
+
+<section class="work-section">
+
+    <h2 class="section-title">My Works</h2>
+
+    <!-- Living Details -->
+    <div class="work-category">
+        <h3>Living Details</h3>
+        <p class="subtitle">Small lives, quiet stories</p>
+
+        <div class="work-grid">
+            <div class="work-item"><img src="images/cat.jpg"></div>
+            <div class="work-item"><img src="images/spider.jpg"></div>
+            <div class="work-item"><img src="images/moth.jpg"></div>
+        </div>
+    </div>
+
+    <!-- People -->
+  <div class="work-category">
+
+    <div class="category-header">
+        <h3>Living Details</h3>
+        <span>+</span>
+    </div>
+
+    <p class="subtitle">Small lives, quiet stories</p>
+
+    <div class="work-grid">
+        <div class="work-item"><img src="images/cat.jpg"></div>
+        <div class="work-item"><img src="images/spider.jpg"></div>
+        <div class="work-item"><img src="images/moth.jpg"></div>
+    </div>
+
+</div>
+
+    <!-- Places -->
+    <div class="work-category">
+        <h3>Places</h3>
+        <p class="subtitle">Where time slows down</p>
+
+        <div class="work-grid">
+            <div class="work-item"><img src="images/beach.jpg"></div>
+            <div class="work-item"><img src="images/forest.jpg"></div>
+        </div>
+    </div>
+
+    <!-- Creative -->
+    <div class="work-category">
+        <h3>🎡 Creative / Random Aesthetic</h3>
+        <p class="subtitle">Ordinary things, seen differently</p>
+
+        <div class="work-grid">
+            <div class="work-item"><img src="images/giantwheel.jpg"></div>
+            <div class="work-item"><img src="images/cottoncandy.jpg"></div>
+        </div>
+    </div>
+
+</section>
+
+</main>
+<!--gpt2---------------->
+
+</body>
+</html>
